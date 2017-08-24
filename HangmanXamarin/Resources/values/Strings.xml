@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="wordList">
+    <item>SEPARATE</item>
+    <item>BLEAKLY</item>
+    <item>AVOCADO</item>
+    <item>WATCH</item>
+    <item>COMPUTER</item>
+    <item>PROGRAM</item>
+    <item>CELLPHONE</item>
+    <item>CABLE</item>
+    <item>CELERY</item>
+    <item>EMERGE</item>
+    <item>SUPERMARKET</item>
+    <item>OVERRIDE</item>
+    <item>SMOKER</item>
+    <item>MISTAKE</item>
+    <item>PEASANT</item>
+    <item>PROPORTION</item>
+    <item>PHYSIOLOGY</item>
+    <item>PROMPTING</item>
+    <item>MUTTER</item>
+    <item>EXAMINATION</item>
+    <item>UNION</item>
+    <item>FUNCTION</item>
+    <item>AUTHOR</item>
+    <item>LIGHTER</item>
+    <item>FORBIDDING</item>
+    <item>HARDWARE</item>
+    <item>IMBALANCE</item>
+    <item>COUNTRY</item>
+    <item>SOURCE</item>
+    <item>PULSE</item>
+    <item>HARDWARE</item>
+    <item>ABOLITION</item>
+    <item>SUFFER</item>
+    <item>INSTITUTION</item>
+    <item>EXTINCTION</item>
+    <item>COMPOSER</item>
+    <item>HASSLE</item>
+    <item>POSTAGE</item>
+    <item>COMPULSION</item>
+    <item>INFORMATION</item>
+    <item>TRANSIENT</item>
+    <item>CANDIDATE</item>
+  </string-array>
+</resources>

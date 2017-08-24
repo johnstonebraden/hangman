@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:backgroundTint="#fff0ffff"
+    p1:backgroundTintMode="add"
+    p1:background="@android:color/background_light">
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/linearLayout1">
+        <TextView
+            p1:text="Score: "
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/txtScore"
+            p1:textColor="@android:color/background_dark"
+            p1:gravity="right" />
+        <ImageView
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="match_parent"
+            p1:layout_height="222.5dp"
+            p1:id="@+id/ivHangMan"
+            p1:layout_weight="1" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/txtWord"
+            p1:textColor="@android:color/background_dark"
+            p1:layout_gravity="center" />
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Row1"
+            p1:layout_weight="1.2"
+            p1:gravity="center"
+            p1:background="@android:color/background_light">
+            <Button
+                p1:text="A"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyA"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:typeface="normal" />
+            <Button
+                p1:text="B"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyB"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="C"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyC"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="D"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyD"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="E"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyE"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="F"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyF"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="G"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyG"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Row2"
+            p1:layout_weight="1.2"
+            p1:gravity="center"
+            p1:background="@android:color/background_light">
+            <Button
+                p1:text="H"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyH"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_marginLeft="25dp" />
+            <Button
+                p1:text="I"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyI"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="J"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyJ"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="K"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyK"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="L"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyL"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="M"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyM"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_marginRight="25dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Row3"
+            p1:layout_weight="1.2"
+            p1:gravity="center"
+            p1:background="@android:color/background_light">
+            <Button
+                p1:text="N"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyN"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="O"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyO"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="P"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyP"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="Q"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyQ"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="R"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyR"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="S"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyS"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_weight="1" />
+            <Button
+                p1:text="T"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyT"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Row4"
+            p1:layout_weight="1.2"
+            p1:gravity="center"
+            p1:background="@android:color/background_light">
+            <Button
+                p1:text="U"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyU"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_marginLeft="25dp" />
+            <Button
+                p1:text="V"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyV"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="W"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyW"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="X"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyX"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="Y"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyY"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black" />
+            <Button
+                p1:text="Z"
+                p1:layout_width="50dp"
+                p1:layout_height="match_parent"
+                p1:id="@+id/KeyZ"
+                p1:layout_weight="1"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_marginRight="25dp" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="horizontal"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Row5"
+            p1:layout_weight="1.2"
+            p1:background="@android:color/background_light"
+            p1:gravity="center">
+            <Button
+                p1:text="Menu"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/btnMenu"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_weight="1.3" />
+            <Button
+                p1:text="New word"
+                p1:layout_width="wrap_content"
+                p1:layout_height="match_parent"
+                p1:id="@+id/btnNewWord"
+                p1:background="@drawable/custom_button_round_rect_border"
+                p1:textColor="@android:color/black"
+                p1:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
